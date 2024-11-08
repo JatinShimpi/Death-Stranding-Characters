@@ -46,7 +46,7 @@ function App() {
     <div className="no-scrollbar overflow-y-scroll flex flex-col">
       <div className="relative h-screen flex justify-center items-center overflow-hidden ">
         <img
-          src="src\assets\screenshot-death-stranding-4k-e3-2018-wallpaper-b8a6ad188090ac38401c21eef822047a.jpg"
+          src="/screenshot-death-stranding-4k-e3-2018-wallpaper-b8a6ad188090ac38401c21eef822047a.jpg"
           className="absolute top-0 left-0 w-full h-full object-cover filter"
         ></img>
 
@@ -68,7 +68,7 @@ function App() {
             transition={{ delay: 1, duration: 1, type: "tween" }}
           >
             <img
-              src="src\assets\Death-Stranding-PNG-Image-Transparent-Background.png"
+              src="/Death-Stranding-PNG-Image-Transparent-Background.png"
               className=""
               style={{ height: "300px" }}
             ></img>
@@ -84,9 +84,7 @@ function App() {
         animate={controls}
         initial={{ opacity: 0, y: 100 }}
         className="h-screen bg-red-300 flex items-center justify-center"
-      >
-        
-      </motion.div>
+      ></motion.div>
     </div>
   );
 }

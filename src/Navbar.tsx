@@ -15,7 +15,7 @@ const Navbar = () => {
           transition: { duration: 0.3 }, // Smooth transition for scaling
         }}
       >
-        <img src="src/assets/pngegg.png" className="w-full h-14"></img>
+        <img src="/pngegg.png" className="w-full h-14"></img>
       </motion.div>
 
       <ul className="flex space-x-10 mr-4">
