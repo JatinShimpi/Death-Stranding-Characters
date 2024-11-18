@@ -15,14 +15,14 @@ const Navbar = () => {
           transition: { duration: 0.3 }, // Smooth transition for scaling
         }}
       >
-        <img src="/pngegg.png" className="w-full h-14"></img>
+        <img src="/pngegg.png" className="w-full h-10"></img>
       </motion.div>
 
       <ul className="flex space-x-10 mr-4">
         {["Home", "About", "Services", "Contact"].map((item, index) => (
           <li
             key={index}
-            className="text-black font-custom text-xl hover:text-slate-300 transition-colors duration-300 cursor-pointer"
+            className="text-black font-custom text-lg hover:text-slate-300 transition-colors duration-300 cursor-pointer"
           >
             {item}
           </li>

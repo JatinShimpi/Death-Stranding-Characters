@@ -70,7 +70,7 @@ function App() {
             <img
               src="/Death-Stranding-PNG-Image-Transparent-Background.png"
               className=""
-              style={{ height: "300px" }}
+              style={{ height: "200px" }}
             ></img>
           </motion.div>
         </div>
